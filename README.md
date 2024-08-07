@@ -87,9 +87,6 @@ We welcome contributions to Lens Label! If you have suggestions or improvements,
 4. Push the branch to your forked repository.
 5. Open a pull request with a clear explanation of your changes.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 
