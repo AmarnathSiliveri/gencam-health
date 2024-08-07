@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-import requests
+
 from PIL import Image
 from io import BytesIO
 from dotenv import load_dotenv
@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 
 # Load environment variables
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=st.secrets["API_KEY"])
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="LabelLens", page_icon='🔎')
@@ -305,3 +305,12 @@ if selected == 'CREDITS':
             st.success(" Stay in the loop and level up your knowledge with every follow! ")
             st.success("Do you see icons , click to follow  on SOCIAL")
 
+#hide streamlit mainmenu footer header
+hide_st_style= """
+       <style>
+       #mainmenu {visibility:hidden;}
+       footer {visibility:hidden;}
+       header {visibility:hidden;}
+       </style>
+ """
+st.markdown(hide_st_style,unsafe_allow_html=True)
