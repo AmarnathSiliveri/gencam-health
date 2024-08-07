@@ -305,3 +305,12 @@ if selected == 'CREDITS':
             st.success(" Stay in the loop and level up your knowledge with every follow! ")
             st.success("Do you see icons , click to follow  on SOCIAL")
 
+#hide streamlit mainmenu footer header
+hide_st_style= """
+       <style>
+       #mainmenu {visibility:hidden;}
+       footer {visibility:hidden;}
+       header {visibility:hidden;}
+       </style>
+ """
+st.markdown(hide_st_style,unsafe_allow_html=True)
