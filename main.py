@@ -1,11 +1,11 @@
 import streamlit as st
 import os
-import requests
+
 from PIL import Image
 from io import BytesIO
 from dotenv import load_dotenv
 import google.generativeai as genai
-from streamlit_option_menu import option_menu
+
 
 # Load environment variables
 load_dotenv()
