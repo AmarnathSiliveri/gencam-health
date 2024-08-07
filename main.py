@@ -92,16 +92,16 @@ def imageinlocals(image, key):
 if selected == "HOME":
     
 
-    st.markdown("""# <span style='color:#FFFFFF'>Welcome to My Streamlit App *Lens Label 🍏🔎*</span>""", unsafe_allow_html=True)
+    st.markdown("""# <span style='color:black'>Welcome to My Streamlit App *Lens Label 🍏🔎*</span>""", unsafe_allow_html=True)
 
-    st.markdown("""### <span style='color:lightblue'>Powered by Gemini-PRO LLM API from Google</span>""", unsafe_allow_html=True)
+    st.markdown("""### <span style='color:seagreen'>Powered by Gemini-PRO LLM API from Google</span>""", unsafe_allow_html=True)
 
     st.markdown("""## <span style='color:orange'>Introduction</span>""", unsafe_allow_html=True)
 
     st.markdown(""" > ##### <span style='color:lightgreen'>Lens Label is designed to help you make healthier food choices by providing detailed health scores for scanned food labels.</span>""", unsafe_allow_html=True)
 
-    st.markdown("""## <span style='color:#FFF5EE'>What is Lens Label?</span>""", unsafe_allow_html=True)
-
+    st.markdown("""## <span style='color:Grey'>What is Lens Label?</span>""", unsafe_allow_html=True)
+    st.header("")
     st.markdown("""
     <div style='font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; font-size: 18px;'>
         Lens Label is your personal health assistant in the grocery aisle! 🍏
@@ -127,8 +127,8 @@ if selected == "LENS LABEL":
     vision_model = genai.GenerativeModel('gemini-1.5-flash')
 
 
-    with st.expander("Scan FOOD LABELS"):
-          st.markdown("""## <span style='color:#FFF5EE'>Scan Food Labels</span>""", unsafe_allow_html=True)
+    with st.expander("SCAN FOOD LABELS"):
+          st.markdown("""## <span style='color:GREEN'>Scan Food Labels</span>""", unsafe_allow_html=True)
           st.markdown("""
             <div style='font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; font-size: 18px;'>
                 Lens Label offers multiple ways to scan food labels:
