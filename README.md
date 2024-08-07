@@ -90,4 +90,4 @@ We welcome contributions to Lens Label! If you have suggestions or improvements,
 
 ## Contact
 
-For any questions or support, please contact us at amarnathsiliveri@gmail.com.
+For any questions or support, please contact me at amarnathsiliveri@gmail.com.
