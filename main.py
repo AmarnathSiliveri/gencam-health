@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 
 # Load environment variables
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=st.secrets("API_KEY"))
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="LabelLens", page_icon='🔎')
